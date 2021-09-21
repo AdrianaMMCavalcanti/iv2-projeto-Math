@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo3</title>
+  <link rel="stylesheet" href="modcss.css">
+</head>
+
+<body>
+  <h1>Projeto Módulo 3</h1>
+
+  <section class="selections" id="ativ1">
+    <p>1) Retorno de um número fracionado em inteiro mais próximo:</p>
+
+    <label>
+      <span>Informe o valor fracionado:</span>
+      <input id="valor1" type="number">
+    </label>
+
+    <div id="mostrarExemplo">
+      <p></p>
+
+    </div>
+
+    <button onclick="retornarInt()"> Calcular</button>
+    <span id="resultado">Resultado: 0</span>
+
+  </section>
+
+
+
+  <section class="selections" id="ativ2">
+
+    <p>2) Potência do Número do primeiro Input pelo do segundo Input: </p>
+    <label>
+      <span>Informe o número:</span>
+      <input id="valor1Pedido" type="number">
+    </label>
+
+    <label>
+      <span>Informe a potência:</span>
+      <input id="valor2Pedido" type="number">
+    </label>
+
+    <button onclick="retornarInteiro()"> Calcular</button>
+    <span id="resultadoQ2">Resultado: 0 </span>
+
+  </section>
+
+
+
+  <section class="selections" id="ativ3">
+    <p>3) Cálculos referente a medida de um Círculo (Medida da circunferência e Cálculo da Área): </p>
+
+    <label>
+      <span>Informe o valor do raio:</span>
+      <input id="valorRaio" type="number">
+    </label>
+    <button onclick="calcularCirculo()"> Calcular</button>
+    <span id="respostaRaio"> O Resultado da circunferencia do círculo é: 0</span>
+
+    <span id="respostaArea"> O Resultado da Área do círculo é: 0</span>
+
+  </section>
+
+  <section class="selections" id="ativ4">
+    <p>4)Cálculos referente a medida de um Cubo (Área da base, área total, volume):</p>
+
+    <label>
+      <span>Informe o valor da área: </span>
+      <input id="valorArea" type="number">
+    </label>
+    <button onclick="calcularCubo()"> Calcular</button>
+
+    <span id="respostaAreaBase"> O Resultado da Área da base é: 0</span>
+    <span id="respostaAreaTotal"> A Área total é: 0</span>
+    <span id="respostaVolumeCubo"> O volume do cubo é: 0 </span>
+
+  </section>
+
+
+
+  <section class="selections" id="ativ5">
+
+    <p>5) Utilize o objeto Math para fazer algo sobre Matemática que você ache bacana</p>
+
+    <p>(Math.floor - Retorna o número arredondado para baixo para o número inteiro mais próximo)</p>
+
+    <label>
+      <span>Informe um número decimal:</span>
+      <input id="decimal" type="number">
+    </label>
+
+    <button onclick="retornarNumeroInteiro()"> Calcular</button>
+
+    <span id="respostaNumeroInteiro"> O valor inteiro é: </span>
+
+  </section>
+
+</body>
+
+<script src="modjs.js"></script>
+
+</html>

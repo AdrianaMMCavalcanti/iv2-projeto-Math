@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+
+
+html {
+  background : rgb(3, 27, 7)
+}
+
+h1 {
+  color: rgb(241, 227, 227);
+  text-align: center;
+  margin: 6%;
+  font-family: 'Rampart One', cursive;
+  font-size: 5vw;
+}
+
+p { 
+  padding: 3%;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.selections {
+  background-color: rgb(176, 236, 184);
+  border: 0.5em solid gray ; 
+  margin: 2em auto ;
+  width: 30%;
+}
+
+input {
+  margin: 5% auto;
+  border-color: rgb(58, 57, 10);
+  padding: 2%;
+  border-radius: 2em;
+  display: block;
+}
+
+button {
+  margin: 2em auto;
+  padding: 3%;
+  display: block
+  
+}
+
+span {
+  color:rgb(63, 34, 6);
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 1vw
+}
+
+div {
+  color:gray
+  
+}
